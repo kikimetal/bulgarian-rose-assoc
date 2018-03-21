@@ -33,10 +33,10 @@ Rose_petal = function(){
 
         this.angle += 0.2;
 
-        if(this.scale < 0.5){
+        if(this.scale < 0.47){
             this.scale += 0.006;
         }else{
-            this.scale *= 1.006;
+            this.scale *= 1.015;
         }
         if(this.alpha > 0){
             if(this.alpha > 6){

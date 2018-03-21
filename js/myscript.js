@@ -40,7 +40,7 @@ $(window).load(function(){
     setTimeout(function(){
         $("#loader").addClass("loaded");
     },wait);
-    wait += 1800;
+    wait += 2000;
     setTimeout(function(){
         $("#loader").addClass("hide-rose");
     },wait);

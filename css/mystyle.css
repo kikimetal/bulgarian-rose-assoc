@@ -897,6 +897,7 @@ footer .address address{
     transition: 1.2s;
 }
 #loader.hide-rose .loader-item.rose{
+    transition: 0.4s ease-out;
     opacity: 0;
 }
 #loader .loader-item.text{
