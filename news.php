@@ -16,13 +16,14 @@
             opacity: 0.7;
             padding: 0.2em 0.4em;
             font-size: 0.9rem;
-            margin-bottom: 0.4em;
+            margin-bottom: 0.6em;
             line-height: 1;
           }
           #news .news-content .update-title{
             border-bottom: 1px solid rgba(50,0,0,0.2);
-            line-height: 1.7;
-            margin-bottom: 0.8em;
+            line-height: 1.6;
+            padding-bottom: 0.2em;
+            margin-bottom: 0.9em;
           }
           #news .news-content:not(:last-child){
             margin-bottom: 45px;
@@ -30,14 +31,12 @@
           #news .news-content p{
             font-size: 1rem;
             line-height: 1.9;
-            margin-top: 0.9em;
-            margin-bottom: 0.9em;
+            margin: 0.9em 0;
           }
           #news .news-content img.pure-rose{
             max-width: 100%;
             border-radius: 6px;
-            user-select: none;
-            pointer-events: none;
+            margin-top: 5px;
           }
         </style>
 
