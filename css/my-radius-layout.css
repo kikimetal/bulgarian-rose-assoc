@@ -1,0 +1,25 @@
+/*test radius layout*/
+header #title,
+section#top,
+section .section-head .section-head-img,
+footer{
+    border-radius: 0.4rem;
+}
+footer{
+    overflow: hidden;
+}
+section#top::before,
+section .section-head .section-head-title,
+section .section-body{
+    border-radius: 0.2rem;
+}
+@media screen and (min-width: 1024px) {
+    footer{
+        overflow: hidden;
+    }
+    #menu .menu-item,
+    #menu .menu-item .img::before,
+    #menu .menu-item.large-nav-menu-top::before{
+        border-radius: 0.4rem;
+    }
+}

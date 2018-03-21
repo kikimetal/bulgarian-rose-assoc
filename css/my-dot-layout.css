@@ -1,0 +1,31 @@
+/*dot layout*/
+
+#menu .menu-item .img::before{
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border: 1px dashed rgba(255, 230, 235, 0.5);
+}
+
+section#top::before{
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border: 1px dashed rgba(255, 230, 235, 0.5);
+}
+
+#menu .menu-item.large-nav-menu-top::before{
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    border: 1px dashed rgba(255, 230, 235, 0.6);
+}
